@@ -16,7 +16,7 @@ class App extends Component {
     Chart.defaults.global.defaultFontColor = '#000';
     Chart.defaults.global.defaultFontSize = 16;
 
-    this.state = {historicalData: null, currency: "PHP"}
+    this.state = {historicalData: null, currency: "AUD"}
     this.onCurrencySelect = this.onCurrencySelect.bind(this)
   }
 
@@ -84,8 +84,8 @@ class App extends Component {
               )}
             </select>
             {
-              this.state.currency !== 'PHP' && (<div>
-                <a href="#" className="link" onClick={() => this.setCurrency('PHP')} style={{color: "black", fontSize: 16, fontFamily: 'Bungee'}}> [CLICK HERE TO RESET] </a>
+              this.state.currency !== 'AUD' && (<div>
+                <a href="#" className="link" onClick={() => this.setCurrency('AUD')} style={{color: "black", fontSize: 16, fontFamily: 'Bungee'}}> [CLICK HERE TO RESET] </a>
               </div>)
             }
           </div>
