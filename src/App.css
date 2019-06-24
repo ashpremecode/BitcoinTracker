@@ -1,33 +1,41 @@
-.App {
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'Bungee', cursive;
+}
+
+span.bungee { font-family: 'Bungee', cursive; }
+
+.app {
+  max-width: 720px;
+  margin: 0 auto;
   text-align: center;
 }
 
-.App-logo {
-  animation: App-logo-spin infinite 20s linear;
-  height: 40vmin;
-  pointer-events: none;
+.header { font-size: 60px; font-family: 'Bungee', cursive; }
+.subheader { font-size: 20px; font-family: 'Bungee', cursive; }
+
+a.link {
+  text-decoration: none;
+  color: #ff1769;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+a.link:hover {
+  text-decoration: none;
+  border-bottom: 2px solid #000;
 }
 
-.App-link {
-  color: #61dafb;
+.select-container select {
+  padding: 10px;
+  border: none;
+  box-shadow: none;
+  background: transparent;
+  background-image: none;
+  -webkit-appearance: none;
+  font-size: 30px;
+  font-family: 'Bungee', cursive;
+  cursor: pointer;
+  color: #ff1769;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.select-container select:focus {
+  outline: none;
 }
