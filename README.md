@@ -1,26 +1,20 @@
-# Vanguard Conference Website
+# Bitcoin Price Tracker
 
-http://www.vanguardconference.com.au/
+https://btcasher.herokuapp.com/
 
-A website for a conference that my church is hosting on the 19-21 September 2019.
-
-Vanguard Conference is a three nights conference focused on equipping and empowering young adults to be influential, forward thinking and ground breaking in their life and their spheres. Hosted by Elevation Hills Young Adult.
+A simple BTC Price Tracker updated via CoinDesk API.
 
 ### Motivation
-It is the first time we are hosting a conference for the young adults community in the Hills area. We wanted to have an online presence and a website to have information on what the conference is all about.
+I thought it would be a fun project to be able to create my own app in something that I am interested in.
 
 ### Screenshots
-
-#### Mobile
-![](https://github.com/ashpremecode/VanguardConference/blob/master/resources/img/screenshot1.png)
-
-#### Desktop
-![](https://github.com/ashpremecode/VanguardConference/blob/master/resources/img/screenshot2.png)
+![](https://github.com/ashpremecode/bitcoin/blob/master/btc1.png)
 
 ### Built With
+Bootstrapped with Create React App
 HTML
 CSS
-JS
+React
 
 ### Installation
 Clone: https://github.com/ashpremecode/eya-vanguard.git
