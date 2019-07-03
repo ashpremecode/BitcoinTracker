@@ -13,8 +13,8 @@ I thought it would be a fun project to be able to create my own app in something
 
 ### Built With
 Bootstrapped with Create React App <br>
-HTML
-CSS
+HTML <br>
+CSS <br>
 React
 
 ### Installation
